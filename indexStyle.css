@@ -1,0 +1,60 @@
+
+
+body {
+	background-color: crimson;
+	padding: 10px 50px;
+
+}
+
+h1 {
+	color: #F5F5F5;
+	font-size: 70px;
+	border: 10px solid blue;
+	font-family: 'Shadows Into Light', sans-serif;
+	padding: 10px 50px;
+}
+
+#MVP {
+	color: #F5F5F5;
+}
+
+p {
+	width: auto;
+	margin: 0;
+}
+
+li {
+	margin-top: 15px;
+	color: #FFC0CB;
+}
+.nlPlayer {
+	color:#FFFF00;
+}
+.allStar {
+	color: SpringGreen;
+}
+
+/* this is a media query ... */
+@media (max-width: 550px) {
+	li {
+		border: dotted;
+	}
+}
+@media (min-width: 551px) and (max-width: 768px) {
+	li {
+		background-color: purple;
+	}
+}
+
+.allStar::first-letter {
+	font-size: 50px;
+	color: lime;
+}
+
+li:hover {
+	background-color: white;
+}
+
+a:visited {
+	color: teal;
+}

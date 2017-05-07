@@ -1,0 +1,55 @@
+h1{
+
+}
+
+ul li {
+	border: dotted;
+	border-color: plum;
+	border-radius: 5px;
+	border-width: 3px;
+	
+}
+.mammal {
+	color: red;
+	font-weight: bold;
+	padding: 0px 20px;
+}
+.birds {
+	color: blue;
+	font-style: italic;
+	margin: 15px 0px 10px;
+}
+.fish {
+	columns: orange;
+	text-decoration: underline;
+	padding: 10px;
+	margin-top: 20px;
+}
+#gray {
+	background-color: gray;
+}
+#orangeRed {
+	background-color: #FF4500;
+}
+#black {
+	background-color: black;
+}
+#salmon {
+	background-color: salmon;
+}
+#sienna {
+	background-color: sienna;
+}
+#gold {
+	background-color: gold;
+}
+ol li .mammal {
+	border: solid;
+	border-color: green;
+}
+
+
+
+
+
+
